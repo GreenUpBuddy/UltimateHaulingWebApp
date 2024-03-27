@@ -9,7 +9,7 @@ import * as RiIcons from "react-icons/ri";
 export const SidebarData = [
 	{
 		title: "Contact",
-		path: "/contact",
+		path: "/",
 		icon: <FaIcons.FaPhone />,
 	},
 	{
