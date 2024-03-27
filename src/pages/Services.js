@@ -55,9 +55,9 @@ export const Services = () => {
 				</Panel> 
 			</form>
 			<footer className="footer" >
-		  		<text href="mailto:ultimatehaulingpnw@gmail.com">ultimatehaulingpnw@gmail.com</text>
+		  		<a href="mailto:ultimatehaulingpnw@gmail.com">ultimatehaulingpnw@gmail.com</a>
 				<br></br>
-		  		<text href="https://www.linkedin.com/in/john-sawyer-bb2072222/">Site by: John Sawyer</text>
+		  		<a href={'https://www.linkedin.com/in/john-sawyer-bb2072222/'}>Site by: John Sawyer</a>
 			</footer>
 		  </div> 
 	);
