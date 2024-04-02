@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import "/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/App.css";export default class TextInput extends Component {
+export default class TextInput extends Component {
     constructor(props) {
         super(props);
     
