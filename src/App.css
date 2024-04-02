@@ -33,8 +33,8 @@ image {
 .contact,
 .events,
 .support {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20vw;
+  padding-right: 20vw;
   padding-bottom: 120px;
   padding-top: 30px;
   display: flex;
