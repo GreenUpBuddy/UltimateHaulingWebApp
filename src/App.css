@@ -7,6 +7,9 @@
   padding: 0;
 }
 
+:root{
+  font-size: small;
+}
 body {
   overscroll-behavior: none;
 }
