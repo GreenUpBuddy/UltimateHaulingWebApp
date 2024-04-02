@@ -3,8 +3,8 @@
 import emailjs from '@emailjs/browser'
 import TextInput from "../components/TextInput";
 import { Panel } from "rsuite";
-const small = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/seattleVan540.webp");
-const medium = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/seattleVan1080.webp");
+const small = require("./images/seattleVan540.webp");
+const medium = require("./images/seattleVan1080.webp");
 
 
 const Contact = () => {
@@ -18,7 +18,7 @@ const Contact = () => {
 			<form>
 			<img 
 				alt="A Ultimate Hauling Cargo Van in Seattle WA" 
-				src={require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/seattleVan.jpg")}
+				src={require("./images/seattleVan.jpg")}
 				srcset={`${small} 540w, ${medium} 1080w`}
 				sizes=" 
 					(min-width: 960px) 720px, (min-width: 340px) 100vw, calc(-2000vw + 6720px)

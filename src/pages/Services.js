@@ -3,14 +3,14 @@
 import React from "react";
 import { Panel } from 'rsuite';
 
-const smallCargo = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/cargovan360.webp");
-const mediumCargo = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/cargovan720.webp");
+const smallCargo = require("./images/cargovan360.webp");
+const mediumCargo = require("./images/cargovan720.webp");
 
-const smallSemi = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/semi360.webp");
-const mediumSemi = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/semi720.webp");
+const smallSemi = require("./images/semi360.webp");
+const mediumSemi = require("./images/semi720.webp");
 
-const smallFleet = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/unitVan320.webp");
-const mediumFleet = require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/unitVan640.webp");
+const smallFleet = require("./images/unitVan320.webp");
+const mediumFleet = require("./images/unitVan640.webp");
 
 export const Services = () => {
 	return (
@@ -20,7 +20,7 @@ export const Services = () => {
 			<h1>Our Services</h1>
 			<form>
 				<img alt="A cargo van being unloaded of the product it was carrying" 
-				src={require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/cargovan.jpg")}
+				src={require("./images/cargovan.jpg")}
 				srcset={`${smallCargo} 359w, ${mediumCargo} 719w`}
 				sizes=" 
 					(min-width: 960px) 720px, (min-width: 340px) 100vw, calc(-2000vw + 6720px)
@@ -32,7 +32,7 @@ export const Services = () => {
 				cargo delivery including store to home and furniture/Junk Removal
 				</Panel>
 				<img alt="A semi driving on a freeway" 
-					src={require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/semi.jpg")}
+					src={require("./images/semi.jpg")}
 					srcset={`${smallSemi} 360w, ${mediumSemi} 720w`}
 					sizes=" 
 						(min-width: 960px) 720px, (min-width: 340px) 100vw, calc(-2000vw + 6720px)
@@ -43,7 +43,7 @@ export const Services = () => {
 				48 and 53 ft trailers for your business needs. We also offer 26 ft 
 				dry and refrigerated box trucks for dry/Non dry items
 				</Panel>
-				<img alt="The Ultimate Hauling Cargo Van fleet" src={require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/unitVan.jpg")}
+				<img alt="The Ultimate Hauling Cargo Van fleet" src={require("./images/unitVan.jpg")}
 					srcset={`${smallFleet} 360w, ${mediumFleet} 720w`}
 					sizes=" 
 						(min-width: 960px) 720px, (min-width: 340px) 100vw, calc(-2000vw + 6720px)

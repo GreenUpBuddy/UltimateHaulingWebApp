@@ -57,7 +57,7 @@ const Sidebar = () => {
 							onClick={showSidebar}
 						/>
 					</NavIcon>
-					<img style={{paddingTop: 10}} alt="The Ultimate Hauling Logo" src={require("/Users/jdsawyer/Desktop/StoreFrontProj/store-front/src/images/400PngdpiLogo.webp")} height="100" />
+					<img style={{paddingTop: 10}} alt="The Ultimate Hauling Logo" src={require("./400PngdpiLogo.webp")} height="100" />
 					<h1
 						style={{
 							textAlign: "center",
