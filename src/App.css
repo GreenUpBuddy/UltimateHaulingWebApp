@@ -14,8 +14,8 @@ body {
   overscroll-behavior: none;
 }
 image {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 .footer {
   position: fixed;
@@ -98,8 +98,8 @@ body {
 
 
 .field {
-  margin-left: 260px;
-  margin-right: 260px;
+  margin-left: 20vw;
+  margin-right: 20vw;
   display: flex;
   height: 56px;
   justify-content: center;
