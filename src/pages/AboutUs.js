@@ -41,10 +41,6 @@ export const AboutUs = () => {
 							></img>
 							<h2>VP of Developement</h2>
 						</Panel>
-						<Panel bordered header="Erin Tollie">
-							<img alt="Operations Manager Erin Tollie " src={require("./images/erin.webp")} height="240" width="180" />
-							<h2>Operations Manager</h2>
-						</Panel>
 					</form>
 				</div>
 			</form>
