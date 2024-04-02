@@ -9,15 +9,24 @@ const mediumMel = require("./images/mel_ceo720.webp");
 const smallJus = require("./images/justin-vp320.webp");
 const mediumJus = require("./images/justin-vp640.webp");
 
+const smallTeam = require("./images/team360.webp");
+const mediumTeam = require("./images/team720.webp");
+
 export const AboutUs = () => {
 	return (
 		<div className="home">
 			<form>
-				<h1 style={{paddingLeft: 0}}>Ultimate Hauling</h1>
-				<div style={{alignItems: "left"}}>
-					<text>Here at Ultimate Hauling everyone is family!</text>
-					<img alt="The Ultimate Hauling crew!" src={require("./images/team.webp")} height="240" />
+				<h1>Ultimate Hauling</h1>
+				<div>
 					<form>
+						<text>Here at Ultimate Hauling everyone is family!</text>
+						<br></br>
+						<img alt="The Ultimate Hauling crew!" src={require("./images/team.webp")} 
+							srcset={`${smallTeam} 360w, ${mediumTeam} 720w`}
+							sizes=" 
+								(min-width: 960px) 720px, (min-width: 340px) 100vw, calc(-2000vw + 6720px)
+							"
+						/>
 						<Panel bordered header="Melody Sawyer">
 							<img alt="The CEO Melody Sawyer" src={require("./images/mel_ceo.webp")}
 								srcset={`${smallMel} 360w, ${mediumMel} 720w`}
