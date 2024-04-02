@@ -14,11 +14,9 @@ const mediumFleet = require("./images/unitVan640.webp");
 
 export const Services = () => {
 	return (
-		<div className="services" style={{ 
-			display: 'block'
-		  }}> 
-			<h1>Our Services</h1>
+		<div className="services"> 
 			<form>
+				<h1>Our Services</h1>
 				<img alt="A cargo van being unloaded of the product it was carrying" 
 				src={require("./images/cargovan.jpg")}
 				srcset={`${smallCargo} 359w, ${mediumCargo} 719w`}
